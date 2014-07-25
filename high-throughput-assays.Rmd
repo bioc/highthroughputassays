@@ -149,7 +149,6 @@ analysis of flow cytometry data.
 [flowUtils](/packages/release/bioc/html/flowUtils.html),
 [flowFP](/packages/release/bioc/html/flowFP.html),
 [flowTrans](/packages/release/bioc/html/flowTrans.html),
-[iFlow](/packages/release/bioc/html/iFlow.html)
 
 Algorithms for clustering flow cytometry data are found in these packages:
 
