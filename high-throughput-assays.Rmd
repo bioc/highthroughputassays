@@ -1,7 +1,8 @@
-<!--
-%\VignetteEngine{knitr::knitr}
-%\VignetteIndexEntry{Using Bioconductor with High Throughput Assays}
--->
+---
+vignette: >
+  %\VignetteIndexEntry{Using Bioconductor with High Throughput Assays}
+  %\VignetteEngine{knitr::rmarkdown}
+---
 
 
 # ![](/images/icons/help.gif)Using Bioconductor for High Throughput Assays
