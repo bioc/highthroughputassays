@@ -1,22 +1,18 @@
 ---
+title: Using Bioconductor with High Throughput Assays
+output:
+  html_document:
+    toc: true
 vignette: >
   %\VignetteIndexEntry{Using Bioconductor with High Throughput Assays}
   %\VignetteEngine{knitr::rmarkdown}
 ---
 
-
-# Using Bioconductor for High Throughput Assays
-
 Bioconductor includes packages for analysis of diverse areas of
 high-throughput assays such as flow cytometry, quantitative real-time PCR,
-mass spectrometry, proteomics and other cell-based data. 
+mass spectrometry, proteomics and other cell-based data.
 
-* [Sample Workflow](#sample-workflow)  
-* [Installation and Use](#install-and-use)
-* [Exploring Package Content](#exploring-package-content)
-* [Diverse Assays Resources](#diverse-assays-resources)
-
-<h2 id="sample-workflow"> Sample Workflow</h2>
+# Sample Workflow
 
 The following psuedo-code illustrates a typical R / Bioconductor
 session. It makes use of the flow cytometry packages to load, transform and
@@ -79,7 +75,8 @@ found in [flowWorkFlow.pdf](flowWorkFlow.pdf) or the vignettes of the
 
 <p class="back_to_top">[ <a href="#top">Back to top</a> ]</p>
 
-<h2 id="install-and-use">Installation and Use</h2>
+# Installation and Use
+
 Follow [installation instructions](/install/) to start using these
 packages.  To install the `flowCore` package and all of its
 dependencies, evaluate the commands
@@ -104,7 +101,7 @@ This instruction is required once in each R session.
 
 <p class="back_to_top">[ <a href="#top">Back to top</a> ]</p>
 
-<h2 id="exploring-package-content">Exploring Package Content</h2>
+# Exploring Package Content
 
 Packages have extensive help pages, and include vignettes highlighting
 common use cases. The help pages and vignettes are available from
@@ -130,7 +127,7 @@ to open a web page containing comprehensive help resources.
 
 <p class="back_to_top">[ <a href="#top">Back to top</a> ]</p>
 
-<h2 id="diverse-assays-resources">Diverse Assays Resources</h2>
+# Diverse Assays Resources
 
 The following provide a brief overview of packages useful for analysis
 of high-throughput assays. More comprehensive workflows can be found
@@ -138,7 +135,7 @@ in documentation (available from [package
 descriptions](/packages/release/bioc/))
 and in Bioconductor [publications](/help/publications/).
 
-### Flow Cytometry ###
+## Flow Cytometry ##
 
 These packages use standard FCS files, including infrastructure,
 utilities, visualization and semi-autogating methods for the
@@ -164,7 +161,7 @@ A typical workflow using the packages `flowCore`, `flowViz`, `flowQ` and
 The data files used in the workflow can be downloaded from
 [here](dataFiles.tar).
 
-### Cell-based Assays ###
+## Cell-based Assays ##
 
 These packages provide data structures and algorithms for cell-based
 high-throughput screens (HTS).
@@ -177,7 +174,7 @@ real-time cell analyzer (RTCA).
 
 [RTCA](/packages/release/bioc/html/RTCA.html)
 
-### High-throughput qPCR Assays ###
+## High-throughput qPCR Assays ##
 
 These package provide algorithm for the analysis of cycle threshold
 (Ct) from quantitative real-time PCR data.
@@ -186,7 +183,7 @@ These package provide algorithm for the analysis of cycle threshold
 [ddCt](/packages/release/bioc/html/ddCt.html),
 [qpcrNorm](/packages/release/bioc/html/qpcrNorm.html)
 
-### Mass Spectrometry and Proteomics data ###
+## Mass Spectrometry and Proteomics data ##
 
 These packages provide framework for processing, visualization, and
 statistical analysis of mass spectral and proteomics data.
@@ -198,11 +195,12 @@ statistical analysis of mass spectral and proteomics data.
 [flagme](/packages/release/bioc/html/flagme.html),
 [xcms](/packages/release/bioc/html/xcms.html)
 
-### Imaging Based Assays ###
+## Imaging Based Assays ##
 
 These packages provide infrastructure for image-based phenotyping and automation of other image-related tasks:
 
 [EBImage](/packages/release/bioc/html/EBImage.html)
+[imageHTS](/packages/release/bioc/html/imagHTS.html)
 
 <p class="back_to_top">[ <a href="#top">Back to top</a> ]</p>
 
