@@ -199,7 +199,7 @@ statistical analysis of mass spectral and proteomics data.
 
 These packages provide infrastructure for image-based phenotyping and automation of other image-related tasks:
 
-[EBImage](/packages/release/bioc/html/EBImage.html)
+[EBImage](/packages/release/bioc/html/EBImage.html),
 [imageHTS](/packages/release/bioc/html/imagHTS.html)
 
 <p class="back_to_top">[ <a href="#top">Back to top</a> ]</p>
