@@ -23,24 +23,18 @@ dependencies.  It loads the ITN data with 15 samples, each of which includes,
 in addition to FSC and SSC, 5 fluorescence channels: CD3, CD4, CD8, CD69 and
 HLADR. 
 
-```{r}
-library("highthroughputassays")
-```
-
-```{r echo=FALSE, results="hide", warning=FALSE, eval=FALSE}
+```{r echo=FALSE, results="hide", warning=FALSE}
 suppressPackageStartupMessages(library(flowCore))
 suppressPackageStartupMessages(library(flowStats))
 suppressPackageStartupMessages(library(flowViz))
 ```
 
-```{r eval=FALSE}
+```{r}
 ## Load packages
 library(flowCore)
 library(flowStats)
 library(flowViz) # for flow data visualization
-```
 
-```{r}
 ## Load data
 data(ITN)
 ITN
