@@ -1,16 +1,34 @@
 ---
 title: Using Bioconductor with High Throughput Assays
 output:
-  html_document:
-    toc: true
+  BiocStyle::html_document
+date: 24 April 2018
 vignette: >
   %\VignetteIndexEntry{Using Bioconductor with High Throughput Assays}
   %\VignetteEngine{knitr::rmarkdown}
+author:
+- name: Bioconductor Maintainer
+  affiliation: Roswell Park Cancer Institute, Elm and Carlton St, Buffalo, NY 14263
+  email: maintainer@bioconductor.org
+abstract: >
+  Bioconductor includes packages for analysis of diverse areas of
+  high-throughput assays such as flow cytometry, quantitative real-time PCR,
+  mass spectrometry, proteomics and other cell-based data.
 ---
 
-Bioconductor includes packages for analysis of diverse areas of
-high-throughput assays such as flow cytometry, quantitative real-time PCR,
-mass spectrometry, proteomics and other cell-based data.
+# Version Info
+```{r, echo=FALSE, results="hide", warning=FALSE}
+suppressPackageStartupMessages({
+library('highthroughputassays')
+})
+```
+<p>
+**R version**: `r R.version.string`
+<br />
+**Bioconductor version**: `r BiocInstaller::biocVersion()`
+<br />
+**Package version**: `r packageVersion("highthroughputassays")`
+</p>
 
 # Sample Workflow
 
