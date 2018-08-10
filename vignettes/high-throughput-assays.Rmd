@@ -25,7 +25,7 @@ library('highthroughputassays')
 <p>
 **R version**: `r R.version.string`
 <br />
-**Bioconductor version**: `r BiocInstaller::biocVersion()`
+**Bioconductor version**: `r BiocManager::version()`
 <br />
 **Package version**: `r packageVersion("highthroughputassays")`
 </p>
@@ -100,9 +100,9 @@ packages.  To install the `flowCore` package and all of its
 dependencies, evaluate the commands
 
 ```{r eval=FALSE}
-## try http:// if https:// URLs are not supported
-source("https://bioconductor.org/biocLite.R")
-biocLite("flowCore")
+if (!"BiocManager" %in% rownames(installed.packages()))
+     install.packages("BiocManager")
+BiocManager::install("flowCore")
 ```
 
 Package installation is required only once per R installation. View a
