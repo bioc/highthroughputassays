@@ -1,6 +1,6 @@
 Package: highthroughputassays 
 Title: Using Bioconductor with High Throughput Assays
-Version: 1.4.0
+Version: 1.4.1
 Date: 2017-09-05
 Authors@R: c(person(role=c("aut", "cre"), "Bioconductor Package Maintainer", email = "maintainer@bioconductor.org"))
 Description: The workflow illustrates  use of the flow cytometry packages to 
@@ -17,7 +17,7 @@ License: Artistic-2.0
 Encoding: UTF-8
 LazyData: true
 VignetteBuilder: knitr
-biocViews: Workflow, ProteomicsWorkflow
+biocViews: ImmunoOncologyWorkflow, Workflow, ProteomicsWorkflow
 Suggests: knitr, rmarkdown, BiocStyle
 NeedsCompilation: no
 URL: https://www.bioconductor.org/help/workflows/highthroughputassays/ 
