@@ -1,18 +1,18 @@
 Package: highthroughputassays 
 Title: Using Bioconductor with High Throughput Assays
-Version: 1.9.0
+Version: 1.9.1
 Date: 2017-09-05
 Authors@R: c(person(role=c("aut", "cre"), "Bioconductor Package Maintainer", email = "maintainer@bioconductor.org"))
 Description: The workflow illustrates  use of the flow cytometry packages to 
     load, transform and visualize the flow data and gate certain populations 
-    in the dataset. The workflow loads the `flowCore`, `flowStats` and `flowViz`
+    in the dataset. The workflow loads the `flowCore`, `flowStats` and `flowWorkspace`
     packages and its dependencies.  It loads the ITN data with 15 samples, each 
     of which includes, in addition to FSC and SSC, 5 fluorescence channels: CD3,
     CD4, CD8, CD69 and HLADR. 
 Depends: R (>= 3.3.0),
          flowCore,
          flowStats,
-         flowViz
+         flowWorkspace
 License: Artistic-2.0
 Encoding: UTF-8
 LazyData: true
