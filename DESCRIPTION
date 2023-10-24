@@ -1,6 +1,6 @@
 Package: highthroughputassays 
 Title: Using Bioconductor with High Throughput Assays
-Version: 1.25.0
+Version: 1.26.0
 Date: 2017-09-05
 Authors@R: c(person(role=c("aut", "cre"), "Bioconductor Package Maintainer", email = "maintainer@bioconductor.org"))
 Description: The workflow illustrates  use of the flow cytometry packages to 
